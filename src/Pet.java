@@ -1,28 +1,27 @@
-
 public class Pet {
 
 	int age = 5;
 	float weight = 15;
 	float height = 120;
-	String color = "белый и пушистый - white and cool ;)";
+	String color = "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - white and cool ;) РїСЂРѕР±СѓСЋ РµС‰С‘ СЂР°Р·!";
 	
 	public void sleep() {
-		System.out.println("Спокойной ночи! До завтра!");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ! пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!");
 	}
 	
 	public void eat() {
-		System.out.println("Я голоден, давай перекусим!");
+		System.out.println("пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 	}
 	
 	public String say(String aWord) {
-		String petResponse = "Ну ладно! " + aWord;
+		String petResponse = "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ! " + aWord;
 		return petResponse;
 	}
 	
 	/*
 	weight = 15;
 	height = 120;
-	color = "белый и пушистый";
+	color = "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 	*/
 	
 }
