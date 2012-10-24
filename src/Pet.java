@@ -4,14 +4,14 @@ public class Pet {
 	int age = 5;
 	float weight = 15;
 	float height = 120;
-	String color = "белый и пушистый";
+	String color = "белый и пушистый - white and cool ;)";
 	
 	public void sleep() {
 		System.out.println("—покойной ночи! ƒо завтра!");
 	}
 	
 	public void eat() {
-		System.out.println("я голоден, давай чЄ-нить перекусим!");
+		System.out.println("я голоден, давай перекусим!");
 	}
 	
 	public String say(String aWord) {
