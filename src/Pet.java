@@ -10,7 +10,7 @@ public class Pet {
 	}
 	
 	public void eat() {
-		System.out.println("� �������, ����� ���������!");
+		System.out.println("Gum-gum!");
 	}
 	
 	public String say(String aWord) {
