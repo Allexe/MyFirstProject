@@ -14,7 +14,7 @@ public class Pet {
 	}
 	
 	public String say(String aWord) {
-		String petResponse = "�� �����! " + aWord;
+		String petResponse = "I'm say: " + aWord;
 		return petResponse;
 	}
 	
