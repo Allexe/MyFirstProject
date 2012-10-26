@@ -21,7 +21,7 @@ public class Pet {
 	/*
 	weight = 15;
 	height = 120;
-	color = "����� � ��������";
+	color = "white";
 	*/
 	
 }
