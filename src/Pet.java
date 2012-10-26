@@ -3,10 +3,10 @@ public class Pet {
 	int age = 5;
 	float weight = 15;
 	float height = 120;
-	String color = "����� � �������� - white and cool ;) пробую ещё раз!";
+	String color = "white and cool ;)!";
 	
 	public void sleep() {
-		System.out.println("��������� ����! �� ������!");
+		System.out.println("by-by!");
 	}
 	
 	public void eat() {
