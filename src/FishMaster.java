@@ -10,6 +10,7 @@ public class FishMaster {
 		myFish.dive(2);
 		myFish.dive(3);
 		myFish.sleep();
+		System.out.println(myFish.say("Hi!"));
 		System.out.println("Да-да, я буду спать на глубине " + myFish.currentDepth + " метров!");
 		
 	}

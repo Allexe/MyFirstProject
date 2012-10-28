@@ -13,4 +13,8 @@ public class Fish extends Pet {
 		return currentDepth;
 	}
 	
+	public String say(String aWord) {
+		String FishResponse = "Рыбы не говорят ...";
+		return FishResponse;
+	}
 }
