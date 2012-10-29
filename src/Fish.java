@@ -7,10 +7,16 @@ public class Fish extends Pet {
 	
 		System.out.println("—ейчас € на глубине " + currentDepth + " метров.");
 		currentDepth=currentDepth + howDeep;
-		System.out.println("Ќыр€ю на глубину " + howDeep + " метров");
-		System.out.println("я на глубине " + currentDepth + " метров ниже уровн€ мор€!");
-	
+		
+		if (currentDepth > 100) {
+			System.out.println("я маленька€ рыбка и не могу плавать глубже 100метров");
+			currentDepth=currentDepth-howDeep;
+		} else {
+			System.out.println("Ќыр€ю на глубину " + howDeep + " метров");
+			System.out.println("я на глубине " + currentDepth + " метров ниже уровн€ мор€!");
+		}
 		return currentDepth;
+		
 	}
 	
 	public String say(String aWord) {
