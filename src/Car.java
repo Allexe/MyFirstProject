@@ -6,7 +6,7 @@ public class Car {
 	}
 	
 	public void stop(){
-		System.out.println("Приехали");
+		System.out.println("Приехали...");
 	}
 	
 	/*
