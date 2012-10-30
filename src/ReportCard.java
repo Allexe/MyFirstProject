@@ -7,7 +7,7 @@ public class ReportCard {
 	зависимости от этого аргумента.
 	*/
 	
-	public char convertGrades( int testResult){
+	public static char convertGrades( int testResult){
 	
 		char grade;
 		
@@ -27,9 +27,11 @@ public class ReportCard {
 	
 	public static void main(String[] args){
 		
-		ReportCard rc = new ReportCard();
+		//ReportCard rc = new ReportCard();
 		
-		char yourGrade = rc.convertGrades(98);
+		//char yourGrade = rc.convertGrades(88);
+		
+		char yourGrade = convertGrades(88);
 		
 		switch (yourGrade) {
 			case 'A':
